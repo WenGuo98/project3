@@ -1,0 +1,1467 @@
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+  }
+
+.flex-container-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative; 
+}
+
+.blue-boxopen {
+    width: 70%;
+    height: 80%;
+    background-color: rgb(85, 146, 193);
+    position: relative; 
+    z-index: 1; 
+}
+
+.handle1-boxopen {
+    width: 3%;
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+    position: absolute; 
+    top: 30%; 
+    left: 25%;
+    z-index: 2; 
+}
+
+.post1-boxopen {
+    width: 34%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    top: 20%; 
+    left: 48%;
+    z-index: 2; 
+}
+
+.space-box1,
+.space-box2,
+.space-box3,
+.space-box4,
+.space-box5,
+.space-box6,
+.space-box7,
+.space-box8,
+.space-box9,
+.space-box10,
+.space-box11,
+.space-box12,
+.space-box13,
+.space-box14,
+.space-box15,
+.space-box16,
+.space-box17,
+.space-box18,
+.space-box19,
+.space-box20,
+.space-box21,
+.space-box22,
+.space-box23,
+.space-box24,
+.space-box25,
+.space-box26,
+.space-box27,
+.space-box28,
+.space-box29,
+.space-box30,
+.space-box31,
+.space-box32,
+.space-box33,
+.space-box34,
+.space-box35,
+.space-box36,
+.space-box37,
+.space-box38,
+.space-box39,
+.space-box40 {
+    width: 1%;
+    height: 3%;
+    background-color: rgb(162, 220, 255);
+    position: absolute; 
+    z-index: 2; 
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3px;
+}
+
+.handel-box1 {
+    width: 1%;
+    height: 5%;
+    background-color: rgb(0, 0, 0);
+    position: absolute; 
+    z-index: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%; 
+    left: 70%;
+}
+
+.space-box1 {
+    top: 22%; 
+    left: 65%;
+}
+.space-box1::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box2 {
+    top: 22%; 
+    left: 66%;
+}
+.space-box2::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box3 {
+    top: 22%; 
+    left: 67.1%;
+}
+.space-box3::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box4 {
+    top: 22%; 
+    left: 68%;
+}
+.space-box4::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box5 {
+    top: 22%; 
+    left: 69%;
+}
+.space-box5::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box6 {
+    top: 22%; 
+    left: 70%;
+}
+.space-box6::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box7 {
+    top: 22%; 
+    left: 71.1%;
+}
+.space-box7::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box8 {
+    top: 22%; 
+    left: 72.2%;
+}
+.space-box8::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box9 {
+    top: 22%; 
+    left: 73%;
+}
+.space-box9::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box10 {
+    top: 22%; 
+    left: 74%;
+}
+.space-box10::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box11 {
+    top: 22%; 
+    left: 75%;
+}
+.space-box11::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box12 {
+    top: 25%; 
+    left: 65%;
+}
+.space-box12::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box13 {
+    top: 28%; 
+    left: 65%;
+}
+.space-box13::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box14 {
+    top: 31.1%; 
+    left: 65%;
+}
+.space-box14::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box15 {
+    top: 33%; 
+    left: 65%;
+}
+.space-box15::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box16 {
+    top: 36%; 
+    left: 65%;
+}
+.space-box16::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box17 {
+    top: 39%; 
+    left: 65%;
+}
+.space-box17::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box18 {
+    top: 41%; 
+    left: 65%;
+}
+.space-box18::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box19 {
+    top: 44.1%; 
+    left: 65%;
+}
+.space-box19::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box20 {
+    top: 47.3%; 
+    left: 65%;
+}
+.space-box20::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box21 {
+    top: 47.3%; 
+    left: 65%;
+}
+.space-box21::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box22 {
+    top: 50%; 
+    left: 65%;
+}
+.space-box22::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box23 {
+    top: 53%; 
+    left: 65%;
+}
+.space-box23::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box24 {
+    top: 56%; 
+    left: 65%;
+}
+.space-box24::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box25 {
+    top: 59.1%; 
+    left: 65%;
+}
+.space-box25::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box26 {
+    top: 59.1%; 
+    left: 63.9%;
+}
+.space-box26::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box27 {
+    top: 25%; 
+    left: 75%;
+}
+.space-box27::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box28 {
+    top: 28%; 
+    left: 75%;
+}
+.space-box28::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box29 {
+    top: 31.1%; 
+    left: 75%;
+}
+.space-box29::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box30 {
+    top: 33%; 
+    left: 75%;
+}
+.space-box30::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box31 {
+    top: 36%; 
+    left: 75%;
+}
+.space-box32::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box32 {
+    top: 39%; 
+    left: 75%;
+}
+.space-box32::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box33 {
+    top: 41%; 
+    left: 75%;
+}
+.space-box33::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box34 {
+    top: 44.1%; 
+    left: 75%;
+}
+.space-box34::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box35 {
+    top: 47.3%; 
+    left: 75%;
+}
+.space-box35::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box36 {
+    top: 47.3%; 
+    left: 75%;
+}
+.space-box36::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box37 {
+    top: 50%; 
+    left: 75%;
+}
+.space-box37::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box38 {
+    top: 53%; 
+    left: 75%;
+}
+.space-box38::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box39 {
+    top: 56%; 
+    left: 75%;
+}
+.space-box39::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.space-box40 {
+    top: 59.1%; 
+    left: 75%;
+}
+.space-box40::before {
+    content: "SPACE"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.fridge-box {
+    width: 8%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 1px rgb(0, 0, 0) inset; 
+    position: absolute; 
+    top: 26%; 
+    left: 66.5%;
+    z-index: 2; 
+}
+
+.fridge-box2 {
+    width: 8%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 1px rgb(0, 0, 0) inset; 
+    position: absolute; 
+    top: 37%; 
+    left: 66.5%;
+    z-index: 2; 
+}
+
+.flex-container-open2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    position: relative; 
+    margin-bottom: 100px;
+}
+
+.blue-boxopen2 {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(85, 146, 193);
+}
+
+.handle2-boxopen {
+    width: 3%;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+    position: absolute; 
+    top: 20%; 
+    left: 25%;
+    z-index: 2; 
+}
+
+.post2-boxopen {
+    width: 35%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    top: 4%; 
+    left: 49%;
+    z-index: 2; 
+}
+
+.picksetting-box,
+.pick-box1,
+.pick-box2,
+.pick-box4,
+.C-box6,
+.pick-box7,
+.C-box8,
+.C-box9,
+.C-box10 {
+    background-color: rgb(162, 220, 255);
+    position: absolute; 
+    z-index: 2; 
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picksetting-box {
+    top: 10%; 
+    left: 63%;
+    width: 9%;
+    height: 15%;
+}
+.picksetting-box::before {
+    content: "Pick Setting"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 30px;
+}
+
+.pick-box1 {
+    top: 6%; 
+    left: 57%;
+    width: 7%;
+    height: 12%;
+}
+.pick-box1::before {
+    content: "Pick"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 35px;
+}
+
+.pick-box2 {
+    top: 13%; 
+    left: 72.5%;
+    width: 5%;
+    height: 8%;
+}
+.pick-box2::before {
+    content: "Pick"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 24px;
+}
+
+.pick-box4 {
+    top: 15%; 
+    left: 53.5%;
+    width: 3%;
+    height: 5%;
+}
+.pick-box4::before {
+    content: "Pick"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 14px;
+}
+
+.C-box6 {
+    top: 4%; 
+    left: 77%;
+    width: 5%;
+    height: 8%;
+}
+.C-box6::before {
+    content: "°C"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 35px;
+}
+
+.pick-box7 {
+    top: 12%; 
+    left: 80%;
+    width: 3%;
+    height: 5%;
+}
+.pick-box7::before {
+    content: "Pick"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 14px;
+}
+
+.C-box8 {
+    top: 21%; 
+    left: 58.5%;
+    width: 4%;
+    height: 7%;
+}
+.C-box8::before {
+    content: "°C"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 27px;
+}
+
+
+.C-box9 {
+    top: 25.5%; 
+    left: 69%;
+    width: 4%;
+    height: 6%;
+}
+.C-box9::before {
+    content: "Pick"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 22px;
+}
+
+.C-box10 {
+    top: 27%; 
+    left: 56%;
+    width: 2%;
+    height: 3%;
+}
+.C-box10::before {
+    content: "°C"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 12px;
+}
+
+.fridge-box3 {
+    width: 17%;
+    height: 18%;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 1px rgb(0, 0, 0) inset; 
+    position: absolute; 
+    top: 5%; 
+    left: 58%;
+    z-index: 2; 
+}
+
+.fridge-box4 {
+    width: 17%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 1px rgb(0, 0, 0) inset; 
+    position: absolute; 
+    top: 24%; 
+    left: 58%;
+    z-index: 2; 
+}
+
+.post3-boxopen {
+    width: 35%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    top: 35%; 
+    left: 30%;
+    z-index: 2; 
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    background-color: rgb(148, 214, 255);
+    position: absolute; 
+    z-index: 2; 
+}
+
+.box1 {
+    top: 36%; 
+    left: 39%;
+    width: 6%;
+    height: 10%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1::before {
+    content: "Find An Appropriate pot For Your Fridge"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.box2 {
+    top: 47%; 
+    left: 40%;
+    width: 5%;
+    height: 8%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2::before {
+    content: "Wait For Fridge To Get Cold"; 
+    position: absolute;
+    top: 50%; 
+    left: 40%;
+    transform: translate(-50%, -50%); 
+    font-size: 12px;
+}
+
+.box3 {
+    top: 47%; 
+    left: 46%;
+    width: 9%;
+    height: 15%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3::before {
+    content: "Fill Fridge With Food"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 25px;
+}
+
+.box4 {
+    top: 41%; 
+    left: 46%;
+    width: 3%;
+    height: 5%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4::before {
+    content: "Pick Setting"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 12px;
+}
+
+.box5 {
+    top: 47%; 
+    left: 56%;
+    width: 6%;
+    height: 10%;
+}
+
+.box6 {
+    top: 39%; 
+    left: 56%;
+    width: 4%;
+    height: 7%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6::before {
+    content: "Keep Clean"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.post4-boxopen {
+    width: 35%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    top: 68%; 
+    left: 40%;
+    z-index: 2; 
+}
+
+.box4-text {
+    background-color: rgb(148, 214, 255);
+    position: absolute; 
+    z-index: 2; 
+    top: 87%; 
+    left: 50%;
+    width: 6%;
+    height: 10%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4-text::before {
+    content: "Wait For Fridge To Get Cold"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 12px;
+}
+
+.fridge-box5 {
+    width: 9%;
+    height: 7%;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 1px rgb(0, 0, 0) inset; 
+    position: absolute; 
+    top: 71%; 
+    left: 57%;
+    z-index: 2; 
+}
+
+.fridge-box6 {
+    width: 9%;
+    height: 18%;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 1px rgb(0, 0, 0) inset; 
+    position: absolute; 
+    top: 79%; 
+    left: 57%;
+    z-index: 2; 
+}
+
+.box4-2,
+.box4-3,
+.box4-4,
+.box4-5,
+.box4-6,
+.box4-7,
+.box4-8,
+.box4-9,
+.box4-10,
+.box4-11,
+.box4-12,
+.box4-13,
+.box4-14,
+.box4-15,
+.box4-16,
+.box4-17,
+.box4-18,
+.box4-19,
+.box4-20 {
+    background-color: rgb(148, 214, 255);
+    position: absolute; 
+    z-index: 2; 
+    width: 1%;
+    height: 2%;
+    color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4-2::before,
+.box4-3::before,
+.box4-4::before,
+.box4-5::before,
+.box4-6::before,
+.box4-7::before,
+.box4-8::before,
+.box4-9::before,
+.box4-10::before,
+.box4-11::before,
+.box4-12::before,
+.box4-13::before,
+.box4-14::before,
+.box4-15::before,
+.box4-16::before,
+.box4-17::before,
+.box4-18::before,
+.box4-19::before,
+.box4-20::before {
+    content: "❅"; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 12px;
+}
+.box4-2 {
+    top: 69%; 
+    left: 59%;
+}
+.box4-3 {
+    top: 85%; 
+    left: 56%;
+}
+.box4-4 {
+    top: 77%; 
+    left: 58%;
+}
+.box4-5 {
+    top: 75%; 
+    left: 67%;
+}
+.box4-6 {
+    top: 76%; 
+    left: 55%;
+}
+.box4-7 {
+    top: 73%; 
+    left: 56%;
+}
+.box4-8 {
+    top: 77%; 
+    left: 70%;
+}
+.box4-9 {
+    top: 77%; 
+    left: 66%;
+}
+.box4-10 {
+    top: 73%; 
+    left: 65%;
+}
+.box4-11 {
+    top: 71%; 
+    left: 57%;
+}
+.box4-12 {
+    top: 71%; 
+    left: 54%;
+}
+.box4-13 {
+    top: 70%; 
+    left: 64%;
+}
+.box4-14 {
+    top: 77%; 
+    left: 50%;
+}
+.box4-15 {
+    top: 94%; 
+    left: 49%;
+}
+.box4-16 {
+    top: 92%; 
+    left: 66%;
+}
+.box4-17 {
+    top: 80%; 
+    left: 53%;
+}
+.box4-18 {
+    top: 86%; 
+    left: 67%;
+}
+.box4-19 {
+    top: 82%; 
+    left: 60%;
+}
+.box4-20 {
+    top: 85%; 
+    left: 65%;
+}
+
+  
+.flip-card-back {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    backface-visibility: hidden; 
+    z-index: -1; 
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+  }
+  
+  .blue-box {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 0 30px rgb(85, 146, 193) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 5px; 
+  }
+
+  .grid-item1 {
+    background-color: rgb(85, 146, 193);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+  }
+  .grid-item1::before {
+    content: attr(data-text); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px; 
+    color: #000;
+  }
+
+  .grid-item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item5 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item6 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item7 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item8 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item9 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item10 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid-item11 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+
+.handle-box {
+    width: 5%;
+    height: 40%;
+    background-color: black;
+    position: absolute;
+    top: 600xp;
+    left: 103%; 
+    transform: translateX(-50%); 
+    z-index: 2; 
+}
+
+.blue-boxdoor {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(85, 146, 193);
+    position: absolute; 
+    top: 600xp; 
+    left: 106%; 
+    z-index: 1; 
+}
+
+
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    position: relative; 
+}
+
+.blue-box2 {
+    width: 70%;
+    height: 100%;
+    background-color: white; 
+    position: relative;
+    box-shadow: 0 0 0 30px rgb(85, 146, 193) inset; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+  }
+  
+  .grid2-item1 {
+    background-color: rgb(85, 146, 193);
+    width: 110px;
+    height: 120px;
+    text-align: center;
+    position: relative;
+  }
+  .grid2-item1::before {
+    content: attr(data-text); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .grid2-item2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item9 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item10 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item11 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+  .grid2-item12 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(85, 146, 193);
+    text-align: center;
+  }
+
+.handle-box2 {
+    width: 5%;
+    height: 25%;
+    background-color: black;
+    position: absolute;
+    top: 0xp;
+    left: 103%; 
+    transform: translateX(-50%); 
+    z-index: 2; 
+}
+
+.blue-boxdoor2 {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(85, 146, 193);
+    position: absolute; 
+    top: 0xp; 
+    left: 106%; 
+}
